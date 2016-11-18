@@ -63,8 +63,11 @@ VideoCreateInfo info = new VideoCreateInfo.Builder()
          .setEnableBeautyBack(false)　　  
 　　　　　//前置摄像头美颜开，默认true （开启）
          .setEnableBeautyFront(true)
-　　　　　//视频录制码率，默认4MB
-          .setVideoRate(4*1024*1024)           
+　　　　　//视频录制码率.单位: kbps
+     //1920x1080     4000 kbps(default)
+     //1280x720      2000 kbps(default)
+     //854x480       1000 kbps(default)
+          .setVideoRate(2000)           
 　　　　　 //视频录制分辨率，默认720*720. 参考 VideoResolution
           .setCaptureResolution(VideoResolution.VIDEO_720x720)  
 　　　　　//拍摄模式：长按拍&s松开拍．默认松开拍．参考CaptureMode.
