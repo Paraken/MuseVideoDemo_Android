@@ -40,7 +40,7 @@ public class CaptureConfigActivity extends Activity implements View.OnClickListe
     /**
      * 松开拍最大时间最小值.
      */
-    private static int MAX_RELEASE_FROM = 15 * 1000;
+    private static int MAX_RELEASE_FROM = 30 * 1000;
     /**
      * 松开拍最大时间最大值.
      */
@@ -321,12 +321,17 @@ public class CaptureConfigActivity extends Activity implements View.OnClickListe
                 .setEnableBeautyBack(false)
                 //前置摄像头美颜开，默认true （开启）
                 .setEnableBeautyFront(true)
-                //视频录制码率，默认4MB
+                //视频录制码率
+                //1920x1080 pixels    4000 * 1000
+                //1280x720 pixels     2000 * 1000
+                //854x480 pixels      1000 * 1000
                 .setVideoRate(mVideoRate)
                 //视频录制分辨率，默认720*720. 参考 VideoResolution
                 .setCaptureResolution(mVideoResolution)
                 //拍摄模式：长按拍&s松开拍．默认松开拍．参考CaptureMode.
                 .setCaptureMode(mCaptureMode)
+                //点击拍是否采用滤镜前处理方式拍摄,该方式帧率相对低，默认false
+                .setEnableExtenderPressProcessPre(false)
                 //长按拍最小时长和最大时长，默认分别为3s和15s
                 .setMultiClipsShortPressMax(mMultiClipsShortPressMin * 1000, mMultiClipsShortPressMax * 1000)
                 //松开拍最小时长和最大时长，默认分别为3s和15s

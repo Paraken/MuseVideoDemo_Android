@@ -25,7 +25,7 @@
             android:layout_marginRight="16dp"
             android:gravity="center"
             android:text="导入"
-            android:textColor="@color/tv_color"
+            android:textColor="@color/tv_next"
             android:textSize="17sp" />
     </RelativeLayout>
 

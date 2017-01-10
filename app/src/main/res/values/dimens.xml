@@ -2,4 +2,48 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <!--如下属性是aar默认值(皆可注释)，如需自定义，直接修改某项即可-->
+
+    <!--窗口标题字体大小-->
+    <dimen name="text_size_title">16sp</dimen>
+
+    <!--特效开关提示字体大小-->
+    <dimen name="text_size_special_effect_on_off">18sp</dimen>
+    <!--滤镜名字体大小-->
+    <dimen name="text_size_filter_name">18sp</dimen>
+    <!--摄像头缩放字体颜色-->
+    <dimen name="text_size_zoom">14sp</dimen>
+    <!--倒计时字体大小-->
+    <dimen name="text_size_count_down">70sp</dimen>
+    <!--倒计时提示字体大小-->
+    <dimen name="text_size_count_down_tip">16sp</dimen>
+    <!--提示左右滑动切换滤镜字体大小-->
+    <dimen name="text_size_switch_filter_guider">14sp</dimen>
+    <!--拍摄模式字体大小-->
+    <dimen name="text_size_record_mode">13sp</dimen>
+    <!--拍摄时长字体大小-->
+    <dimen name="text_size_record_time">13sp</dimen>
+    <!--美颜字体颜色-->
+    <dimen name="text_size_beauty">13sp</dimen>
+    <!--美颜值字体颜色-->
+    <dimen name="text_size_beauty_percentage">13sp</dimen>
+
+    <!--拍摄进度条高度-->
+    <dimen name="height_record_progress">5dp</dimen>
+    <!--拍摄视频之间间隔宽度-->
+    <dimen name="width_chip_space">2dp</dimen>
+    <!--最短视频标志宽度-->
+    <dimen name="width_min_duration_flag">2dp</dimen>
+    <!--最短视频标志宽度-->
+    <dimen name="width_cursor">4dp</dimen>
+
+
+    <!--剪辑视频起始点颜色-->
+    <dimen name="text_size_cut_video_start">12sp</dimen>
+    <!--剪辑视频结束点颜色-->
+    <dimen name="text_size_cut_video_end">12sp</dimen>
+    <!--剪辑视频时长颜色-->
+    <dimen name="text_size_cut_video_duration">16sp</dimen>
 </resources>

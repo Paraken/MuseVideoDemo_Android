@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 import com.paraken.demo.Util.Constant;
 import com.paraken.musevideosdk.MuseVideoManager;
+import com.paraken.musevideosdk.constant.WaterMarker;
 import com.paraken.musevideosdk.impl.MuseVideoServiceImpl;
 import com.paraken.musevideosdk.session.VideoCreateInfo;
 import com.paraken.musevideosdk.util.FileUtil;
@@ -129,7 +130,9 @@ public class ImportConfigActivity extends Activity implements View.OnClickListen
                 .setMediaStorePath(Constant.MEDIA_STORE_PATH)
                 .setImportVideoMinDuration(mImportVideoMinDuration * 1000)
                 .setImportVideoMaxDuration(mImportVideoMaxDuration * 1000)
-                .setEnableEdit(false)
+                .setWaterMarkPosition(WaterMarker.WATER_MARKER_BOTTOM_LEFT)
+                .setWaterMarkPath(Constant.WATER_MARK_PATH)
+                .setEnableEdit(true)
                 .build();
 
         museVideoService.initRecord(info);

@@ -9,6 +9,18 @@ import android.widget.Button;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 
+    /**
+        UI 自定义
+        1, 颜色(修改colors.xml默认值);
+        2, 大小(修改dimens.xml默认值);
+        3, 资源图片(如下两方式皆可).
+            3.1 打开.aar目录./res/drawable-x/ 替换相关图片;
+            3.2 当前项目下创建同名资源文件以覆盖aar资源文件,
+                demo 中提供了不同于aar一套主题，相关文件说明情况如下:
+                3.2.1  *_169_*.png为16:9拍摄模式图片资源;
+                3.2.2  *_11_43_*.png为1:1和4:3拍摄模式图片资源.
+    */
+
     private Button btn_capture, btn_import;
 
     @Override

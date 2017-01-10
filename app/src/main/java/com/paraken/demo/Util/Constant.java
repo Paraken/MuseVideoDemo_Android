@@ -10,7 +10,7 @@ public class Constant {
     /**
      * 视频保存文件夹路径
      */
-    public static final String MEDIA_STORE_PATH = "DCIM" + File.separator + "3rdApp";
+    public static final String MEDIA_STORE_PATH = "DCIM" + File.separator + "Camera";
 
     /**
      * 水印本地路径，文件必须为rgba格式的PNG图片

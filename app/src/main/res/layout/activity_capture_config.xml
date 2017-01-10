@@ -26,7 +26,7 @@
             android:layout_marginRight="16dp"
             android:gravity="center"
             android:text="拍摄"
-            android:textColor="@color/tv_color"
+            android:textColor="@color/tv_next"
             android:textSize="17sp" />
     </RelativeLayout>
 
@@ -374,9 +374,11 @@
                     ss:checked="false" />
             </RelativeLayout>
 
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:visibility="gone"
                 android:background="#1c000000"
                 android:paddingBottom="12dp"
                 android:paddingLeft="16dp"
@@ -388,6 +390,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="36dp"
+                android:visibility="gone"
                 android:background="@drawable/layout_bg"
                 android:clickable="true"
                 android:paddingLeft="16dp"
@@ -413,12 +416,14 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
+                android:visibility="gone"
                 android:background="#eaeaea" />
 
             <RelativeLayout
                 android:id="@+id/rl_water_marker"
                 android:layout_width="match_parent"
                 android:layout_height="36dp"
+                android:visibility="gone"
                 android:background="@drawable/layout_bg"
                 android:clickable="true"
                 android:paddingLeft="16dp"

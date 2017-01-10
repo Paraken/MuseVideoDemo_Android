@@ -3,4 +3,91 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!--如需自定义，直接修改某项即可.如果注释或删除则是aar中默认配置-->
+
+    <!--主题背景颜色-->
+    <color name="color_theme">#ffffffff</color>
+    <!--预览窗口背景色-->
+    <color name="color_preview">#f3f3f3</color>
+    <!--窗口标题颜色-->
+    <color name="text_color_title">#6680a9</color>
+
+    <!--特效开关字体颜色-->
+    <color name="text_color_special_effect_on_off">#ffffff</color>
+    <!--滤镜名字体颜色-->
+    <color name="text_color_filter_name">#ffffff</color>
+    <!--摄像头缩放字体颜色-->
+    <color name="text_color_zoom">#ffffff</color>
+    <!--倒计时字体颜色-->
+    <color name="text_color_count_down">#ccffffff</color>
+    <!--倒计时提示字体颜色-->
+    <color name="text_color_count_down_tip">#ffffff</color>
+    <!--提示左右滑动切换滤镜字体颜色-->
+    <color name="text_color_switch_filter_guider">#ffffff</color>
+    <!--选中拍摄模式字体颜色-->
+    <color name="text_color_record_mode_select">#ff4285f4</color>
+    <!--未选中拍摄模式字体颜色-->
+    <color name="text_color_record_mode_un_select">#8c4285f4</color>
+    <!--拍摄时长字体颜色-->
+    <color name="text_color_record_time">#6680a9</color>
+    <!--美颜字体颜色-->
+    <color name="text_color_beauty">#ffffff</color>
+    <!--美颜值字体颜色-->
+    <color name="text_color_beauty_percentage">#ffffff</color>
+    <!--聚焦圈颜色-->
+    <color name="color_focus_normal">#ffffff</color>
+    <!--聚焦成功颜色-->
+    <color name="color_focus_succeed">#00ff00</color>
+    <!--聚焦失败颜色-->
+    <color name="color_focus_failed">#ff0000</color>
+
+    <!--拍摄进度条闪烁颜色-->
+    <color name="color_record_progress_cursor">#ffffff</color>
+    <!--拍摄进度条最短时间点标记颜色-->
+    <color name="color_record_progress_min_duration_flag">#99ffffff</color>
+    <!--拍摄进度条小于最短时间点颜色-->
+    <color name="color_record_progress_less_than_min_duration">#8c4285f4</color>
+    <!--拍摄进度条大于最短时间点颜色-->
+    <color name="color_record_progress_more_than_min_duration">#4c4285f4</color>
+    <!--拍摄进度条选中视频片段颜色-->
+    <color name="color_record_progress_select_video_chip">#8c4285f4</color>
+    <!--拍摄进度条正在拍摄进度颜色-->
+    <color name="color_record_progress_ing">#ff4285f4</color>
+
+    <!--剪辑视频起始点颜色-->
+    <color name="text_color_cut_video_start">#6680a9</color>
+    <!--剪辑视频结束点颜色-->
+    <color name="text_color_cut_video_end">#6680a9</color>
+    <!--剪辑视频时长颜色-->
+    <color name="text_color_cut_video_duration">#4285f4</color>
+
+    <!--剪辑视频基线颜色-->
+    <color name="color_cut_video_baseline">#8fa1c2fa</color>
+    <!--剪辑视频按下剪辑条颜色-->
+    <color name="color_cut_video_press">#ff2e63ba</color>
+    <!--剪辑视频非按下剪辑条颜色-->
+    <color name="color_cut_video_normal">#ff4285f4</color>
+
+    <!--视频预览进度条背景颜色-->
+    <color name="color_preview_progress_bar_bg">#4c4285f4</color>
+    <!--视频预览进度条进度颜色-->
+    <color name="color_preview_progress_bar_progress">#ff4285f4</color>
+
+    <!--美颜进度条背景颜色-->
+    <color name="color_beauty_progress_bar_bg">#8c4285f4</color>
+    <!--美颜进度条进度颜色-->
+    <color name="color_beauty_progress_bar_progress">#4285f4</color>
+
+
+    <!--后处理Tab选项背景色-->
+    <color name="color_process_tab_bg">#ecf2fd</color>
+    <!--后处理Tab选项选中颜色-->
+    <color name="process_tab_selected">#4285f4</color>
+    <!--后处理Tab选项未选中颜色-->
+    <color name="process_tab_unselected">#cc6680a9</color>
+    <!--后处理滤镜/美颜背景色-->
+    <color name="color_process_filter_bg">#ffffff</color>
+    <!--后处理滤镜被选中覆盖颜色-->
+    <color name="color_process_filter_selected_cover">#51ffffff</color>
 </resources>
