@@ -15,8 +15,7 @@ MuseVideo Android
 [下载 SDK](http://www.paraken.com/musesdk/download/sdk/android)
 
 ##### 2.2、获取授权
-使用我司 MuseSDK 需要授权。不申请授权使用SDK时仅限评估用途。请发邮件到 <feedback@paraken.com> 询问商务合作相关信息。
-
+使用我司 MuseSDK 需要授权。不申请授权使用SDK时仅限评估用途。请发邮件到 <feedback@paraken.com> 询问商务合作相关信息。如果只是测试，可直接使用  <https://github.com/Paraken/MuseVideoDemo_Android/blob/master/app/src/main/java/com/paraken/demo/Util/Constant.java#L21> 中 key。
 ##### 2.3、集成
 1. 拷贝 SDK 文件 musevideosdk.aar 到 ./libs 下。
 2. 配置 build.gradle
